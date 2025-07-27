@@ -7,17 +7,17 @@ A personal portfolio built using React, Tailwind CSS, and Vite – fully respons
 
 # 📁 Features
 
-➡Responsive layout for desktop, tablet & mobile
-➡Smooth scroll & animated sections
-➡Dark/light theme toggle
-➡Hamburger menu for mobile navigation
-➡360° rotating profile picture on load
-➡Beautiful gradient hover effects
-➡Contact form with social icons
+➡Responsive layout for desktop, tablet & mobile  
+➡Smooth scroll & animated sections  
+➡Dark/light theme toggle  
+➡Hamburger menu for mobile navigation  
+➡360° rotating profile picture on load  
+➡Beautiful gradient hover effects  
+➡Contact form with social icons  
 
 # 🛠 Built With
 
-➡React
-➡Vite
-➡Tailwind CSS
-➡CSS
+➡React  
+➡Vite  
+➡Tailwind CSS  
+➡CSS  

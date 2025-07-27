@@ -1,0 +1,43 @@
+@import "tailwindcss";
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --primary-color:rgb(1, 1, 63);
+    --secondary-color:white;
+    --tertiary-color:white;
+    --body-color:rgb(1, 1, 63);
+    --icon-color:rgb(216, 206, 206);
+    --nav-color:rgb(43, 191, 241);
+    --nav-hover:rgb(78, 121, 238);
+    --button-color:rgb(245, 44, 77);
+    --button-hover:rgb(194, 18, 47);
+    --shadow-color:rgb(134, 224, 244);
+    --border:rgb(104, 187, 238);
+    --heading:rgb(245, 44, 77);
+}
+.light{
+    --primary-color:white;
+    --secondary-color:black;
+    --tertiary-color:gray;
+    --body-color:#ea580c;
+    --icon-color:rgb(57, 40, 40);
+    --nav-color:#ea580c;
+    --nav-hover:#e8783b;
+    --button-color:rgb(71, 70, 70);
+    --button-hover:rgb(60, 57, 57);
+    --shadow-color:rgba(246, 171, 20, 0.91);
+    --border:rgb(239, 163, 22);
+    --heading:#ea580c;
+    
+}
+
+
+@layer base {
+    body{
+        background-color: var(--body-color);
+    }
+}
+.slick-slide > div{
+    margin: 0 10px;
+}

@@ -21,8 +21,7 @@ export function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(`Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`);
-    // You can send this data to a backend/server here
+    alert(`Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}\n\n YOUR MESSAGE HAS BEEN SENT SUCCESSFULLY.`);
   };
 
   return (

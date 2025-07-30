@@ -26,7 +26,7 @@ export function ContactForm() {
 
   return (
     <div className="p-4 m-4">
-    <h2 className="flex justify-center items-center text-black text-5xl mb-4 font-bold">Contact</h2>
+    <h2 className="flex justify-center items-center text-white text-5xl mb-4 font-bold">Contact</h2>
     <form onSubmit={handleSubmit} className="flex flex-col gap-4 max-w-md mx-auto p-10 bg-white border rounded-2xl ">
       <input
         type="text"

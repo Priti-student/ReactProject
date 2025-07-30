@@ -1,14 +1,12 @@
 import React from 'react';
 import "./index.css";
-import "./Project.css";
-import "./index.css";
 import project from "./assets/project.jpg"; 
 
 export default function Project() {
   return (
     <div>
-        <div id="Project" className='p-10 mt-10 flex-col justify-center items-center'>
-            <h2 className="flex justify-center items-center text-5xl mb-4 font-bold">Project</h2>
+        <div id="Project" className='p-10 mt-10 flex-col justify-center items-center bg-[var(--primary-color)]'>
+            <h2 className="flex justify-center items-center text-5xl mb-4 font-bold text-[var(--secondary-color)]">Project</h2>
             <div className=' flex justify-center items-center'>
             <div className='h-120 w-120 flex flex-col justify-center items-centers hover:bg-blue-200 shadow-3xl bg-blue-100'>
             <div className='flex justify-center items-center'>

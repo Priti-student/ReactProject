@@ -31,15 +31,3 @@
 #image-container:hover {
   box-shadow: 0 0 30px 10px var(--shadow-color);
 }
-#Hero{
-  background-color: var(--primary-color);
-}
-h1{
-  color: var(--secondary-color);
-}
-#para1{
-  color: var(--heading);
-}
-#para2{
-  color: var(--tertiary-color);
-}

@@ -15,7 +15,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section id="Hero" className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 py-12 ">
+    <section id="Hero" className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 py-12 bg-[var(--primary-color)]">
       
     {/* Profile Picture */}
       <div className="md:w-1/2 flex justify-center">
@@ -27,9 +27,9 @@ const Hero = () => {
 
       {/* About Text */}
       <div className="md:w-1/2 text-center md:text-left mb-8 mt-8 md:mb-0 md:mr-20 md:ml-5">
-        <h1 className="text-4xl font-bold mb-4  slide-in-left transition-transform duration-300 hover:scale-102">Hi, I'm Priti 😊</h1>
-        <p id="para1" class="text-lg mt-2 mb-4  slide-in-left transition-transform duration-300 hover:scale-102 font-bold" >Aspiring Web Developer | Tech Enthusiast</p>
-        <p id="para2" className="text-lg ">
+        <h1 className="text-4xl font-bold mb-4  slide-in-left transition-transform duration-300 hover:scale-102 text-[var(--secondary-color)]">Hi, I'm Priti 😊</h1>
+        <p id="para1" class="text-lg mt-2 mb-4  slide-in-left transition-transform duration-300 hover:scale-102 font-bold text-[var(--heading)]" >Aspiring Web Developer | Tech Enthusiast</p>
+        <p id="para2" className="text-lg text-[var(--tertiary-color)] ">
           I'm a frontend developer passionate about clean design and smooth user experience.
           I enjoy building responsive websites using React and Tailwind CSS that not only work well but also feel intuitive to use.
           <br/>
